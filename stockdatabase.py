@@ -38,8 +38,7 @@ start = time.time()
 embeddings = model.encode(
     texts,
     batch_size=64,
-    show_progress_bar=False,
-    convert_to_numpy=True, 
+    show_progress_bar=False 
 )
 
 end = time.time()
